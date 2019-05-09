@@ -4,7 +4,7 @@
 from setuptools import setup
 
 
-package_name = 'httpstat'
+package_name = 'controlio'
 filename = package_name + '.py'
 
 
@@ -28,16 +28,14 @@ def get_long_description():
 setup(
     name=package_name,
     version=get_version(),
-    author='reorx',
-    author_email='novoreorx@gmail.com',
+    author='Tanguy',
+    author_email='t.lepage@evesa.fr',
     description='curl statistics made simple',
-    url='https://github.com/reorx/httpstat',
     long_description=get_long_description(),
     py_modules=[package_name],
     entry_points={
         'console_scripts': [
-            'httpstat = httpstat:main'
+            'controlio = controlio:main'
         ]
     },
-    license='License :: OSI Approved :: MIT License',
 )

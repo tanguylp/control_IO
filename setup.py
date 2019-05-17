@@ -4,7 +4,7 @@
 from setuptools import setup
 
 
-package_name = 'socketio'
+package_name = 'controlio'
 filename = package_name + '.py'
 
 
@@ -35,7 +35,7 @@ setup(
     py_modules=[package_name],
     entry_points={
         'console_scripts': [
-            'socketio = socketio:main'
+            'controlio = controlio:main'
         ]
     },
 )
